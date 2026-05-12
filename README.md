@@ -7,6 +7,19 @@ This repository contains a machine learning model, specifically a Tuned Random F
 
 **Model Type:** `sklearn.ensemble.RandomForestClassifier`
 
+## Dataset Features
+
+The model was trained on a synthetic dataset generated using `sklearn.datasets.make_classification`. This dataset consists of abstract numerical features, which are typical for demonstrating classification tasks. In a real-world application, these features would correspond to specific, interpretable attributes of your data.
+
+The synthetic features are:
+*   **`feature_0`**: An abstract numerical feature.
+*   **`feature_1`**: An abstract numerical feature.
+*   **`feature_2`**: An abstract numerical feature.
+*   **`feature_3`**: An abstract numerical feature.
+*   **`feature_4`**: An abstract numerical feature.
+
+For their relative importance in the model, please refer to the 'Feature Importances' section below.
+
 ## Hyperparameter Tuning Results (using `GridSearchCV`)
 
 *   **Best Parameters:**
